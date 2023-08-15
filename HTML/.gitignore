@@ -1,0 +1,15 @@
+# Ignore compiled object files
+*.o
+
+# Ignore files and directories created by the IDE
+.idea/
+.vscode/
+
+# Ignore temporary files
+~*
+
+# Ignore logs
+*.log
+
+# Ignore sensitive or private data
+test-gitignore.html
