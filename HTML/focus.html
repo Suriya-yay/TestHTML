@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>Enable and Focus Input</title>
+</head>
+<body>
+
+<input type="text" id="myInput" disabled>
+
+<button id="enableAndFocusButton">Enable and Focus Input</button>
+
+<script>
+document.getElementById('enableAndFocusButton').addEventListener('click', function() {
+  var inputElement = document.getElementById('myInput');
+  inputElement.disabled = false;
+  inputElement.focus();
+});
+</script>
+
+</body>
+</html>
